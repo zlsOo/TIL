@@ -220,7 +220,7 @@ full 디렉토리 path 확인 /
 
 #### branch에 기존 작업코드 복사하고 push하기
 ```
-branch 생성 후 이동:git checkout -b expressPrac
+branch 생성 후 이동:git checkout -b expressPrace
 확인:git status
-push 하기:git push origin expressPrac
+push 하기:git push origin expressPrace
 ```
