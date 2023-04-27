@@ -8,73 +8,74 @@
 ```
 
 ##### 새로운 저장소 생성
-` $ git init `
+ $ git init  <br>
 
 ```
 .git하위 디렉토리 생성 (폴더를 만든 후 그 안에서 명령 실행-> 새로운 git 저장소 생성)
 ```
 ##### 저장소 복제/다운로드(clone)
-`1.$ git clone <https:.. URL>`
-`2.$ git clone /로컬/저장소/경로`
-`3.$ git clone 사용자명@호스트:/원격/저장소/경로`
+1. $ git clone <https:.. URL> <br>
+2. $ git clone /로컬/저장소/경로<br>
+3. $ git clone 사용자명@호스트:/원격/저장소/경로<br>
 
 ```
-1.기존 소스 코드 다운로드/복제
-2.로컬 저장소 복제
-3.원격 서버 저장소 복제
+1. 기존 소스 코드 다운로드/복제
+2. 로컬 저장소 복제
+3. 원격 서버 저장소 복제
 ```
 ##### 가지(branch)치기 작업
-`1.$ git branch`
-`2.$ git branch <브랜치이름>`
-`3.$ git checkout -b <브랜치이름>`
-`4.$ git checkout master`
-`5.$ git branch -d <브랜치이름>`
-`6.$ git push origin <브랜치이름>`
-`7.$ git push -u < remote > <브랜치이름>`
-`8.$ git pull < remote > <브랜치이름>`
+1. $ git branch 
+2. $ git branch <브랜치이름>
+3. $ git checkout -b <브랜치이름>
+4. $ git checkout master
+5. $ git branch -d <브랜치이름>
+6. $ git push origin <브랜치이름>
+7. $ git push -u < remote > <브랜치이름>
+8. $ git pull < remote > <브랜치이름>
 ```
-1.브랜치 목록
-2.새 브랜치 생성 (local로 만듦)
-3.브랜치 생성 & 이동
-4.master branch로 되돌아 옴
-5.브랜치 삭제
-6.만든 브랜치를 원격 서버에 전송
-7.새 브랜치를 원격 저장소로 push
-8.원격에 저장된 git 프로젝트의 현재 상태를 다운받고 + 현재 위치한 브랜치로 병합
+1. 브랜치 목록
+2. 새 브랜치 생성 (local로 만듦)
+3. 브랜치 생성 & 이동
+4. master branch로 되돌아 옴
+5. 브랜치 삭제
+6. 만든 브랜치를 원격 서버에 전송
+7. 새 브랜치를 원격 저장소로 push
+8. 원격에 저장된 git 프로젝트의 현재 상태를 다운받고 + 현재 위치한 브랜치로 병합
 ```
 ##### <변경 사항 발행(push)>
-`1.$ git push origin master`
-`2.$ git push < remote > <브랜치이름>`
-`3.$ git push -u < remote > <브랜치이름>`
-`4.$ git remote add origin <등록된 원격 서버 주소>`
-`5.$ git remote remove <등록된 클라우드 주소>`
+1. $ git push origin master <br>
+2. $ git push < remote > <브랜치이름> <br>
+3. $ git push -u < remote > <브랜치이름> <br>
+4. $ git remote add origin <등록된 원격 서버 주소> <br>
+5. $ git remote remove <등록된 클라우드 주소> <br>
 ```
-1.변경사항 원격 서버에 업로드
-2.커밋을 원격 서버에 업로드
-3.커밋을 원격 서버에 업로드
-4.클라우드 주소 등록 및 발행
+1. 변경사항 원격 서버에 업로드
+2. 커밋을 원격 서버에 업로드
+3. 커밋을 원격 서버에 업로드
+4. 클라우드 주소 등록 및 발행
 (git에게 새로운 원격 서버 주소 알림)
-5.클라우드 주소 삭제
+5. 클라우드 주소 삭제
 ```
 ##### <갱신 및 병합(merge)>
-`1.$ git pull`
-`2.$ git merge <다른 브랜치이름>	`
-`3.$ git add <파일명>`
-`4.$ git diff <브랜치이름><다른 브랜치이름>`
+1. $ git pull
+2. $ git merge <다른 브랜치이름>	
+3. $ git add <파일명>
+4. $ git diff <브랜치이름><다른 브랜치이름>
 ```
-1.원격 저장소의 변경 내용이 현재 디렉토리에 가져와지고(fetch) 병합(merge)됨
-2.현재 브랜치.에 다른 브랜치의 수정사항 병합
-3.각 파일을 병합할 수 있음
-4.변경 내용 merge 전에 바뀐 내용을 비교할 수 있음
+1. 원격 저장소의 변경 내용이 현재 디렉토리에 가져와지고(fetch) 병합(merge)됨
+2. 현재 브랜치.에 다른 브랜치의 수정사항 병합
+3. 각 파일을 병합할 수 있음
+4. 변경 내용 merge 전에 바뀐 내용을 비교할 수 있음
 ```
 ##### <태그tag 작업>
-`$ git log`
+$ git log
 ```
 현재 위치한 브랜치 커밋 내용 확인 및 식별자 부여됨
 ```
-##### <로컬 변경사항 return 작업>
-`1.$ git checkout -- <파일명>`
-`2.$ git fetch origin`
+##### <로컬 변경사항 branch>
+
+1. $ git checkout -- <파일명>
+2. $ git fetch origin
 ```
 1.로컬의 변경 사항을 변경 전으로 되돌림
 2.원격에 저장된 git프로젝트의 현 상태를 다운로드
@@ -85,7 +86,7 @@
 * 명령어 인터페이스는 (마우스나 각종 UI 컴포넌트 대신) 터미널을 통해 사용자와 컴퓨터가 상호 작용하는 방식
 
 ##### <관리자 권한으로 실행>
-`	$ sudo`
+$ sudo
 ```
 의미: super user do
 1. 관리자만 읽을 수 있는 파일 읽기
@@ -93,13 +94,13 @@
 3. Notes : 새로운 프로그램 설치시 Package Manager를 이용하는 것이 보편적
 ```
 ##### <기본적인 unix/linux 명령어>
-`$ ls`
+$ ls
 ```
 의미: list
 파일보기
 ```
 
-`$ al`
+$ al
 ```
 의미: all
 파일의 세부내용 확인
@@ -113,24 +114,25 @@
 7. 만든 시간
 8. 파일/디렉토리 이름
 ```
-`$ cd `
+$ cd 
 ```
 의미: change directory
 디렉토리로 이동
 ```
-`$pwd`
+$pwd
 ```
 의미: print working directory
 full 디렉토리 path 확인 /
 (디렉토리 위치 변경)
 ```
+
 ##### 디렉토리로 이동
-`1.$ cd ~`
-`2.$ cd /`
-`3.$ cd .`
-`4.$ cd ..`
-`5.$ pwd`
-`6.$ clear`
+1. $ cd ~
+2. $ cd /
+3. $ cd .
+4.$ cd ..
+5.$ pwd
+6.$ clear
 ```
 1.홈 디렉토리 (현재 사용자 개인 파일 디렉토리)
 2.루트 디렉토리 (시스템 최상위 디렉토리 확인) /
