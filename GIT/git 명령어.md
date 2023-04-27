@@ -127,12 +127,12 @@ full 디렉토리 path 확인 /
 ```
 
 ##### 디렉토리로 이동
-1. $ cd ~
-2. $ cd /
-3. $ cd .
-4.$ cd ..
-5.$ pwd
-6.$ clear
+1. $ cd ~ 
+2. $ cd / 
+3. $ cd . 
+4.$ cd .. 
+5.$ pwd  
+6.$ clear 
 ```
 1.홈 디렉토리 (현재 사용자 개인 파일 디렉토리)
 2.루트 디렉토리 (시스템 최상위 디렉토리 확인) /
@@ -144,68 +144,68 @@ full 디렉토리 path 확인 /
 ```
 
 ##### 자주쓰는 명령어
-`$ touch [file_name]`
+$ touch [file_name]
 ```
 빈 파일 생성 / (not 디렉토리 / literally 파일을 생성)
 ```
-`$ mkdir [dir_name]`
+$ mkdir [dir_name]
 ```
 의미:make directory
 디렉토리 생성
 ```
-`$ cat [file_name]`
+$ cat [file_name]
 ```
 의미:concatenate
 텍스트 형태의 파일 확인
 ```
-`$ mv [file_name or dic_name][target_dir_name]`
+$ mv [file_name or dic_name][target_dir_name]
 ```
 의미:move
 파일 또는 디렉토리 옮기기
 ```
-`$ mv [file_name or dir_name][new_file_name]`
+$ mv [file_name or dir_name][new_file_name]
 ```
 파일 및 디렉토리 이름 바꾸기
 ```
-`$ cp [file][target_dir_name]`
+$ cp [file][target_dir_name]
 ```
 의미:copy
 복사
 ```
-`$ cp -r [folder_name]`
+$ cp -r [folder_name]
 ```
 복사
 ```
 #### 삭제 (휴지통을 거치지 않고 즉시 삭제)
 
-`$ rm [file_name]`
+`$ rm [file_name]
 ```
 의미:remove
 파일 삭제
 ```
-`$ rm -r [dir_name]`
+$ rm -r [dir_name]
 ```
 폴더 삭제
 ```
 #### 파일 소유권 변경
-`$ chown [owner_file]:[group_file]`
+$ chown [owner_file]:[group_file]
 ```
 의미:change owner
 파일 소유권 변경
 ```
-`$ mkdir`
+$ mkdir
 ```
 디렉토리 생성
 ```
-`$ rm`
+$ rm
 ```
 삭제
 ```
 #### GUI프로그램의 실행을 더 간편하게
 
-`1.$ explorer .`
-`2.$ open .`
-`3.$ code .`
+1. $ explorer .
+2. $ open .
+3. $ code .
 ```
 1.현재 폴더를 windows파일 관리자에서 보기
 2.현재 폴더를 macOS finder에서 보기
@@ -213,8 +213,8 @@ full 디렉토리 path 확인 /
 ```
 
 #### 파일 이름에 따른 팁
-`1.공백이 있는 경우`
-`2.파일 자동완성 기능`
+1. 공백이 있는 경우
+2. 파일 자동완성 기능
 ```
 1.공백부분에 tab 키를 누르기 or / (역슬래시)를 입력
 2.첫글자 등을 쓰고 tab 키 누르기
