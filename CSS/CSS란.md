@@ -1,7 +1,7 @@
 ### CSS란?
 
 
-css란? `Cascading Style Sheets` 의 약자로 예를 들어 HTML,XHTML 같은 문서의 스타일을 꾸밀 떄 사용하는 스타일 시크 언어이다.
+css란? `Cascading Style Sheets` 의 약자로 예를 들어 HTML,XHTML 같은 문서의 스타일을 꾸밀 떄 사용하는 스타일 시트 언어이다.
 
 
 HTML로 문서의 뼈대를 만들면 CSS는 문서의 화장을 맡고 있는 셈이다.
